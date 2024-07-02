@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daya – Hospital</title>
+    <!--== Favicon ==-->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <!--== Main Style CSS ==-->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+<!--wrapper start-->
+<div class="wrapper">
+
+  <!--== Start Preloader Content ==-->
+  <div class="preloader-wrap">
+  	<div class="preloader">
+	    <span class="dot"></span>
+	    <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+	    </div>
+  	</div>
+  </div>
+  <!--== End Preloader Content ==-->
+
+  <!--== Start Header Wrapper ==-->
+  <header class="header">
+    <!-- header-top start -->
+    <div class="header-top d-none d-lg-block">
+      <div class="container">
+        <div class="row row-cols-2">
+          <div class="col">
+            <p>
+              <i class="icofont-google-map"></i> <span>ADDRESS:</span>Near Khairbodi Bus Stop, Tirora.
+            </p>
+          </div>
+          <div class="col">
+            <ul class="social-links text-end">
+              <li>
+                <a href="#"><i class="icofont-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="icofont-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="icofont-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="icofont-rss-feed"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="icofont-play-alt-1"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header-top end -->
+
+    <!-- header-middle start -->
+    <div class="header-middle mobile-sticky">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="header-middle-content">
+              <div class="header-logo">
+                <a href="index.html">
+                  <!-- <img
+                    class="sticky-img"
+                    src="assets/img/photos/Daya_logo.png"
+                    alt="Logo"
+                  /> -->
+                  <img
+                  src="assets/img/photos/Daya_logo.png" style="width: 110px; height: 80px; border-radius: 10px;"
+                 alt="Logo"
+               />
+                </a>
+              </div>
+              <ul class="media-wrap d-none d-lg-flex">
+                <!-- media-list start -->
+                <li class="media media-list">
+                  <span class="media-icon"
+                    ><i class="icofont-clock-time"></i
+                  ></span>
+                  <div class="media-content">
+                   <span class="media-sub-heading">working hours</span>
+                   <span class="media-heading" 
+                   >MON - SAT: Mor 9.00am - 1.00pm<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eve 5.00pm - 9.00pm
+                 </span>
+                  </div>
+                </li>
+                <!-- media-list end -->
+
+                <!-- media-list start -->
+                <li class="media media-list">
+                  <span class="media-icon"
+                    ><i class="icofont-ui-call"></i
+                  ></span>
+                  <div class="media-content">
+                    <span class="media-sub-heading">hotline 24/7</span>
+                    <a class="media-heading" href="tel:+0962-58-58-258"
+                          >9067127254<br>9049026663</a
+                        >
+                  </div>
+                </li>
+                <!-- media-list end -->
+
+                <!-- media-list start -->
+                <li class="media media-list">
+                  <span class="media-icon"
+                    ><i class="icofont-envelope"></i
+                  ></span>
+                  <div class="media-content">
+                    <span class="media-sub-heading">email us</span>
+                    <a
+                          class="media-heading" style="font-weight: 600;  text-transform: lowercase;"
+                          href="mailto:support@clenora.com.uk"
+                          >sandeepmeshram2020@gmail.com</a
+                        >
+                  </div>
+                </li>
+                <!-- media-list end -->
+              </ul>
+              <a
+                href="#"
+                class="book-now-btn d-none d-sm-inline-block d-lg-none"
+                >book an appointment</a
+              >
+              <div class="mobile-menu-toggle d-lg-none">
+                <a href="#offcanvas-mobile-menu" class="offcanvas-toggle">
+                  <svg viewBox="0 0 800 600">
+                    <path
+                      d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200"
+                      id="top"
+                    ></path>
+                    <path d="M300,320 L540,320" id="middle"></path>
+                    <path
+                      d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190"
+                      id="bottom"
+                      transform="translate(480, 320) scale(1, -1) translate(-480, -318)"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header-middle end -->
+
+    <!-- header-bottom start -->
+    <div class="header-bottom d-none d-lg-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div
+              class="d-flex flex-wrap align-items-center justify-content-between"
+            >
+                  <ul class="main-menu">
+                    <li class="active">
+                      <a class="main-menu-link" href="index.html"
+                        >Home</a
+                      >
+                    </li>
+                    <li>
+                      <a class="main-menu-link" href="services.html"
+                        >Services</a
+                      >
+                      <ul class="sub-menu">
+                        <!-- <li>
+                          <a class="sub-menu-link" href="services.html"
+                            >Services</a
+                          >
+                        </li> -->
+                        <li>
+                          <a class="sub-menu-link" href="Patient_Bed.html"
+                            >Service Details</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+
+                    <!-- <li>
+                      <a class="main-menu-link" href="blog.html">Blog</a>
+                      <ul class="sub-menu">
+                        <li>
+                          <a class="sub-menu-link" href="blog.html"
+                            >Blog list</a
+                          >
+                        </li>
+                        <li>
+                          <a class="sub-menu-link" href="blog-details.html"
+                            >Blog Details</a
+                          >
+                        </li>
+                      </ul>
+                    </li> -->
+
+                    <li>
+                      <a class="main-menu-link" href="about.html">About</a>
+                    </li>
+                    <li>
+                      <a class="main-menu-link" href="contact.html">Contact</a>
+                    </li>
+                    
+                  </ul>
+              <a href="#" class="book-now-btn">book an appointment</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header-bottom end -->
+    <!-- header-bottom start -->
+    <div class="header-bottom sticky-header d-none d-lg-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div
+              class="d-flex flex-wrap align-items-center justify-content-between"
+            >
+                  <ul class="main-menu">
+                    <li class="active">
+                      <a class="main-menu-link" href="index.html"
+                        >Home</a
+                      >
+                    </li>
+                    <li>
+                      <a class="main-menu-link" href="services.html"
+                        >Services</a
+                      >
+                      <ul class="sub-menu">
+                        <li>
+                          <a class="sub-menu-link" href="services.html"
+                            >Services</a
+                          >
+                        </li>
+                        <li>
+                          <a class="sub-menu-link" href="Patient_Bed.html"
+                            >Service Details</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+
+                    <!-- <li>
+                      <a class="main-menu-link" href="blog.html">Blog</a>
+                      <ul class="sub-menu">
+                        <li>
+                          <a class="sub-menu-link" href="blog.html"
+                            >Blog list</a
+                          >
+                        </li>
+                        <li>
+                          <a class="sub-menu-link" href="blog-details.html"
+                            >Blog Details</a
+                          >
+                        </li>
+                      </ul>
+                    </li> -->
+
+                    <li>
+                      <a class="main-menu-link" href="about.html">About</a>
+                    </li>
+                    <li>
+                      <a class="main-menu-link" href="contact.html">Contact</a>
+                    </li>
+                    
+                  </ul>
+              <a href="#" class="book-now-btn">book an appointment</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header-bottom end -->
+  </header>
+  <!--== End Header Wrapper ==-->
+
+  <main class="main-content site-wrapper-reveal">
+    <!--== Start Page Title Area ==-->
+    <div class="page-title-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-title-content">
+              <div class="bread-crumbs">
+                <a href="index.html">Home<span class="breadcrumb-sep">/</span></a>
+                <a href="index.html">Departments<span class="breadcrumb-sep">/</span></a>
+                <span class="active">Gynecologist</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--== End Page Title Area ==-->
+
+    <!--== Start Departments Area ==-->
+    <section class="department-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="department-wrpp">
+              <!--== Start Sidebar Wrapper ==-->
+              <div class="sidebar-wrapper">
+                <!-- == Start Sidebar Item == -->
+                <div class="widget-item">
+                  <h4 class="widget-title">Departments</h4>
+                  <div class="widget-side-nav">
+                    <ul>
+                      <li><a href="Patient_Bed.html">Patient-Bed</a></li>
+                      <li><a href="Hemorrhoids.html">Hemorrhoids</a></li>
+                      <li><a href="Gynecologist.html">Gynecologist</a></li>
+                      <li><a href="bone.html">Bone & Spinal Disease</a></li>
+                      <li><a href="traumaCenter.html">Trauma Center</a></li>
+                      <li><a href="laboratory.html">Laboratory</a></li>
+                      <li><a href="diabetes.html">Diabetes</a></li>
+                      <li><a href="dental.html">Dental</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- == End Sidebar Item == -->
+
+                <!-- == Start Sidebar Item == -->
+                <div class="widget-item">
+                  <div class="widget-work-hours">
+                    <h4 class="title">Work Hours</h4>
+                    <ul>
+                      <li><span class="work-day">Monday</span><span class="work-hours">7:00 - 17:00</span></li>
+                      <li><span class="work-day">Tuesday</span><span class="work-hours">7:00 - 17:00</span></li>
+                      <li><span class="work-day">Wednesday</span><span class="work-hours">7:00 - 17:00</span></li>
+                      <li><span class="work-day">Thursday</span><span class="work-hours">7:00 - 17:00</span></li>
+                      <li><span class="work-day">Friday</span><span class="work-hours">7:00 - 17:00</span></li>
+                      <li><span class="work-day">Saturday</span><span class="work-hours">9:00 - 11:00</span></li>
+                      <li><span class="work-day">Sunday</span><span class="work-hours">9:00 - 11:00</span></li>
+                    </ul>
+                    <a class="btn-theme btn-white" href="#/">REQUEST A CONSULTATION</a>
+                  </div>
+                </div>
+                <!-- == End Sidebar Item == -->
+
+                <!-- == Start Sidebar Item == -->
+                <div class="widget-item">
+                  <div class="widget-appointment-form">
+                    <h4 class="title">Book An Appointment</h4>
+                    <form id="contact-form" action="http://whizthemes.com/mail-php/raju/arden/mail.php" method="post">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input class="form-control" type="text" name="con_name" placeholder="Name *">
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input class="form-control" type="email" name="con_email" placeholder="Email *">
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input class="form-control" type="text" name="con_phone" placeholder="Phone">
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group datepicker-group">
+                            <label for="datepicker" class="form-label icofont-calendar"></label>
+                            <input class="form-control" id="datepicker" type="text" name="con_date" placeholder="Date">
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group mb-0">
+                            <textarea name="con_message" rows="4" placeholder="Message"></textarea>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group mb-0">
+                            <button class="btn btn-theme" type="submit">Reservation Now</button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <!-- == End Sidebar Item == -->
+              </div>
+              <!--== Ens Sidebar Wrapper ==-->
+
+              <div class="department-content">
+                <h2 class="title">Gynecologist</h2>
+                <div class="swiper-container department-gallery">
+                  <div class="swiper-wrapper gallery-slider">
+                    <div class="swiper-slide">
+                      <img src="assets/img/photos/gyneco1.png" alt="hope-Image"  >
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="assets/img/photos/gyneco2.png" alt="hope-Image" >
+                    </div>
+                  </div>
+                  <!-- Add Arrows -->
+                  <div class="swiper-button-prev"><i class="icofont-rounded-left"></i></div>
+                  <div class="swiper-button-next"><i class="icofont-rounded-right"></i></div>
+                </div>
+
+                <div class="content">                  
+                  <p>At Daya Hospital, we offer a wide range of gynecological treatments, addressing various health issues that affect women. Our experienced team of gynecologists provides personalized care using the latest medical advancements to ensure the best outcomes for our patients.</p>
+                  
+                  <p><b>Our Treatment:</b></p>
+                  <p><b>Routine Gynecological Exams:</b></p>
+                  <ul class="list-style1">
+                   <li><b>Annual Check-ups:</b> Comprehensive physical exams, including pelvic exams and Pap smears, to screen for cervical cancer and other conditions.</li>
+                   <li><b>Breast Exams:</b>Regular screenings to detect any abnormalities or signs of breast cancer.</li>
+                   
+                  </ul>
+
+
+                  <p><b>Menstrual Disorders:</b></p>
+                  <ul class="list-style1">
+                    <li><b>Treatment for Irregular Periods: </b> Hormonal therapy and other medications to regulate menstrual </li>
+                    <li><b>Management of Menstrual Pain:</b> Medications and lifestyle changes to alleviate dysmenorrhea (painful periods).</li>
+                  </ul>
+
+                    <p><b>Pregnancy and Childbirth:</b></p>
+                  <ul class="list-style1">
+                    <li><b>Prenatal Care: </b> Comprehensive care throughout pregnancy, including ultrasounds, screenings, and monitoring of maternal and fetal health.</li>
+                    <li><b>Labor and Delivery:</b> Support and medical care during childbirth, including natural births, C-sections, and pain management options.</li>
+                    <li><b>Personalized Care:</b> Each patient receives a customized treatment plan tailored to their specific condition and needs.</li>
+                    <li><b>Postnatal Care:</b> Follow-up care for mother and baby after delivery.</li>
+                  </ul>
+                </div>
+
+                <div class="team-single">
+                  <h2 class="title"><span>Head Of</span> Department</h2>
+                  <div class="membr-info">
+                    <h4 class="name">Dr. Sarita Meshram</h4>
+                    <h5 class="designation">Head Of Department</h5>
+                    <div class="desc">
+                      <p>Dr..... info.........................................................</p>
+                      <ul>
+                        <li><span>Phone Number</span><span>(+91) 839-6275</span></li>
+                        <li><span>Years in Practice</span><span>6 - 10 Years</span></li>
+                        <li><span>Languages</span><span>English</span></li>
+                      </ul>
+                      <!-- <a href="#/" class="btn-link">VIEW FULL PROFILE</a> -->
+                    </div>
+                  </div>
+                  <div class="thumb">
+                    <img src="assets/img/photos/gyno.jfif.jpg" alt="hope-Image" style="height: 500px;">
+                  </div>
+                </div>
+
+                <div class="faq-area">
+                  <h2 class="title"><span>General</span> FAQs</h2>
+                  <div class="accordian-content">
+                    <div class="accordion" id="accordionStyle">
+                      <div class="accordion-item">
+                        <div class="accordion-header" id="headingOne">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            At what age should I start seeing a gynecologist?
+                            <i class="icon icon-plus icofont-plus"></i>
+                            <i class="icon icon-minus icofont-minus"></i>
+                          </button>
+                        </div>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionStyle">
+                          <div class="accordion-body">
+                            It is recommended for young women to have their first gynecological visit between the ages of 13 and 15 or when they become sexually active, whichever comes first.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <div class="accordion-header" id="headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            How often should I see a gynecologist?
+                            <i class="icon icon-plus icofont-plus"></i>
+                            <i class="icon icon-minus icofont-minus"></i>
+                          </button>
+                        </div>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionStyle">
+                          <div class="accordion-body">
+                            Women should have a routine gynecological exam once a year. However, the frequency may vary based on individual health needs and any specific conditions.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <div class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            How can I manage painful menstrual periods?
+                            <i class="icon icon-plus icofont-plus"></i>
+                            <i class="icon icon-minus icofont-minus"></i>
+                          </button>
+                        </div>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionStyle">
+                          <div class="accordion-body">
+                            Painful periods can often be managed with over-the-counter pain relievers, hormonal contraceptives, lifestyle changes, and in some cases, prescribed medications. Severe cases may require further medical evaluation.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <div class="accordion-header" id="headingOne">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            How can I prevent gynecological infections?
+                            <i class="icon icon-plus icofont-plus"></i>
+                            <i class="icon icon-minus icofont-minus"></i>
+                          </button>
+                        </div>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionStyle">
+                          <div class="accordion-body">
+                            Maintaining good hygiene, practicing safe sex, wearing breathable cotton underwear, avoiding douching, and having regular gynecological exams can help prevent infections.
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="accordion-item">
+                        <div class="accordion-header" id="headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            How do I prepare for a gynecological visit?
+                            <i class="icon icon-plus icofont-plus"></i>
+                            <i class="icon icon-minus icofont-minus"></i>
+                          </button>
+                        </div>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionStyle">
+                          <div class="accordion-body">
+                            To prepare, avoid using vaginal creams or douches for 24 hours before the visit, make a list of any symptoms or questions, and bring your medical history, including any medications you are taking.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--== End Departments Area ==-->
+  </main>
+
+  <!--== Start Footer Area Wrapper ==-->
+  <footer class="footer-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-5 col-lg-4 col-xl-3">
+          <div class="widget-item">
+            <div class="about-widget">
+              <a class="footer-logo" href="index.html">
+                <img src="assets/img/photos/Daya_logo.png" alt="Logo" style="border-radius: 20px; width: 150px; height: 100px;" />
+              </a>
+              <p class="mb-0" style="text-align: justify;">
+                At Daya Hospital , we are committed to providing comprehensive healthcare services through our specialized centers of excellence. Our multidisciplinary approach ensures that you receive the best care for your health needs.
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-sm-6 col-md-5 col-lg-4 col-xl-3">
+          <div class="widget-item">
+            <h4 class="widget-title line-bottom">Menus</h4>
+            <nav class="widget-posts">
+              <ul class="posts-item">
+                <li>
+                  <a href="index.html"
+                    ><i class="icon icofont-rounded-double-right"></i>Home</a
+                  >
+                </li>
+                <li>
+                  <a href="services.html"
+                    ><i class="icon icofont-rounded-double-right"></i
+                    >Services</a
+                  >
+                </li>
+                <li>
+                  <a href="service-details.html"
+                    ><i class="icon icofont-rounded-double-right"></i>Service-details</a
+                  >
+                </li>
+                <li>
+                  <a href="about.html"
+                    ><i class="icon icofont-rounded-double-right"></i>About</a
+                  >
+                </li>
+                <li>
+                  <a href="contact.html"
+                    ><i class="icon icofont-rounded-double-right"></i
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-5 col-lg-4 col-xl-3">
+          <div class="widget-item">
+            <div class="about-widget">
+              <h4 class="widget-title line-bottom">Address</h4>
+               <ul class="widget-contact-info">
+                <li class="info-address">
+                  <i class="icofont-location-pin"></i>Khairbodi Bustop Gondia Road Tirora,Dist- Gondia, MH.
+                </li>
+                <li class="info-mail">
+                  <i class="icofont-email"></i
+                  ><a href="mailto://hello@yourdomain.com"
+                    >sandeepmeshram2020@gmail.com</a
+                  >
+                </li>
+                <li class="info-phone">
+                  <i class="icofont-ui-call"></i
+                  ><a href="tel://(0091)8547632521">9067127254 <br>9049026663</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div
+          class="col-sm-6 col-md-6 offset-md-1 col-lg-4 offset-lg-0 col-xl-3"
+        >
+          <div class="widget-item">
+            <h4 class="widget-title line-bottom">Newsletter</h4>
+            <div class="widget-newsletter">
+              <p>
+                Sign up for our mailing list to get latest updates and
+                offers.
+              </p>
+              <form class="newsletter-form input-btn-group">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Enter your email"
+                />
+                <button class="btn btn-theme" type="button">
+                  <i class="icofont-long-arrow-right"></i>
+                </button>
+              </form>
+            </div>
+            <div class="widget-social-icons">
+              <a href="#"><i class="icofont-twitter"></i></a>
+              <a href="#"><i class="icofont-google-plus"></i></a>
+              <a href="#"><i class="icofont-pinterest"></i></a>
+              <a href="#"><i class="icofont-rss"></i></a>
+              <a href="#"><i class="icofont-facebook"></i></a>
+              <a href="#"><i class="icofont-dribbble"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-sm-12">
+            <div class="widget-copyright">
+              <p>
+                &copy; 2024 <span class="text-uppercase">Daya Hospital</span> copyright
+                <i class="icofont-heart-alt"></i> by
+                <a target="_blank" href="https://www.hasthemes.com"
+                  >Psk Technologies Pvt.Ltd.</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--== End Footer Area Wrapper ==-->
+
+
+      <!-- offcanvas-overlay start -->
+      <div class="offcanvas-overlay"></div>
+      <!-- offcanvas-overlay end -->
+      <!-- offcanvas-mobile-menu start -->
+      <div id="offcanvas-mobile-menu" class="offcanvas offcanvas-mobile-menu">
+        <div class="inner">
+          <div class="border-bottom mb-3 pb-3 text-end">
+            <button class="offcanvas-close">×</button>
+          </div>
+          <div class="offcanvas-head mb-3">
+            <div class="header-top-offcanvas">
+              <p>
+                <i class="icofont-google-map"></i> <span>ADDRESS:</span> Near Khairbodi Bus Stop, Tirora.
+              </p>
+            </div>
+          </div>
+<nav class="offcanvas-menu">
+            <ul>
+              <li>
+                <a href="#"><span class="menu-text">Home</span></a>
+                <ul class="offcanvas-submenu">
+                  <!-- <li><a href="index.html">Home 1</a></li> -->
+                </ul>
+              </li>
+              <li>
+                <a href="#"><span class="menu-text">Services</span></a>
+                <ul class="offcanvas-submenu">
+                  <!-- <li>
+                    <a href="services.html">Service</a>
+                  </li> -->
+                  <li>
+                    <a href="Patient_Bed.html">service details</a>
+                  </li>
+                </ul>
+              </li>
+
+              <!-- <li>
+                <a href="#"><span class="menu-text">blog</span></a>
+                <ul class="offcanvas-submenu">
+                  <li>
+                    <a href="blog.html">Blog list</a>
+                  </li>
+                  <li>
+                    <a href="blog-details.html">Blog details</a>
+                  </li>
+                </ul>
+              </li> -->
+
+              <li>
+                <a href="about.html">about</a>
+              </li>
+
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </nav>
+          <div class="offcanvas-social my-4">
+            <ul>
+              <li>
+                <a href="#"><i class="icofont-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="icofont-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="icofont-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="icofont-rss-feed"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="icofont-play-alt-1"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="media-wrap">
+            <!-- media-list start -->
+            <li class="media media-list">
+              <span class="media-icon"><i class="icofont-clock-time"></i></span>
+              <div class="media-content">
+                <span class="media-sub-heading">working hours</span>
+                <span class="media-heading">MON - FRI: 9.00 - 21.00 </span>
+              </div>
+            </li>
+            <!-- media-list end -->
+
+            <!-- media-list start -->
+            <li class="media media-list">
+              <span class="media-icon"><i class="icofont-ui-call"></i></span>
+              <div class="media-content">
+                <span class="media-sub-heading">hotline 24/7</span>
+                <a class="media-heading" href="tel:+0962-58-58-258"
+                  >9067127254<br>9049026663</a
+                >
+              </div>
+            </li>
+            <!-- media-list end -->
+
+            <!-- media-list start -->
+            <li class="media media-list">
+              <span class="media-icon"><i class="icofont-envelope"></i></span>
+              <div class="media-content">
+                <span class="media-sub-heading">email us</span>
+                <a class="media-heading" href="mailto:support@clenora.com.uk" style="text-transform: lowercase;"
+                  >sandeepmeshram2020@gmail.com</a
+                >
+              </div>
+            </li>
+            <!-- media-list end -->
+          </ul>
+        </div>
+      </div>
+      <!-- offcanvas-mobile-menu end -->
+
+
+  <!--== Scroll Top Button ==-->
+  <div class="scroll-to-top"><span class="icofont-rounded-up"></span></div>
+
+</div>
+
+<!--=======================Javascript============================-->
+
+<!--=== Modernizr Min Js ===-->
+<script src="assets/js/modernizr.js"></script>
+<!--=== jQuery Min Js ===-->
+<script src="assets/js/jquery-main.js"></script>
+<!--=== jQuery Migration Min Js ===-->
+<script src="assets/js/jquery-migrate.js"></script>
+<!--=== Popper Min Js ===-->
+<script src="assets/js/popper.min.js"></script>
+<!--=== Bootstrap Min Js ===-->
+<script src="assets/js/bootstrap.min.js"></script>
+<!--=== jquery UI Min Js ===-->
+<script src="assets/js/jquery-ui.min.js"></script>
+<!--=== Plugin Collection Js ===-->
+<script src="assets/js/plugincollection.js"></script>
+
+
+<!--=== Custom Js ===-->
+<script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+<html>
+    <body>
+        <section class="appointment-area" data-bg-color="#f3f3f3">
+            <div class="appointment-form-style1">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="appointment-form">
+                      <div class="section-title">
+                        <p>We Always Ready Helps you</p>
+                        <h2 class="title"><span>Book An</span> Appointment</h2>
+                      </div>
+                      <form id="appointment-form">
+                        <div class="row">
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <input class="form-control" type="text" name="con_name" id="name" placeholder="Enter your name..." required />
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <input class="form-control" type="email" name="con_email" id="email" placeholder="appoint@gmail.com" required />
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <input class="form-control" type="text" name="con_phone" id="phone" placeholder="Phone" required />
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group datepicker-group">
+                              <label for="datepicker" class="form-label icon icofont-calendar"></label>
+                              <input class="form-control" id="datetime" type="text" name="con_date" placeholder="Date" required />
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group mb-0">
+                              <textarea name="con_message" id="special_request" rows="7" placeholder="Your message here..." required></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group mb-0">
+                              <button class="btn btn-theme" type="button" onclick="sendWhatsAppMessage()">
+                                Make an appointment
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <!-- Message Notification -->
+                    <!-- <div class="form-message"></div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+    </body>
+    <script>
+        function sendWhatsAppMessage() {
+          // Retrieve form values
+          var name = document.querySelector('input[name="con_name"]').value;
+          var email = document.querySelector('input[name="con_email"]').value;
+          var phone = document.querySelector('input[name="con_phone"]').value;
+          var datetime = document.querySelector('input[name="con_date"]').value;
+        //   var massage = document.querySelector('textarea[name="con_message"]').value;
+      
+          // Construct WhatsApp message
+          var message = "Booking Details"
+            + "\nName: " + name
+            + "\nEmail: " + email
+            + "\nPhone: " + phone
+            + "\nDate & Time: " + datetime
+            // + "\nMassage: " + massage
+      
+          // Construct the WhatsApp URL
+          var whatsapp_url = "https://wa.me/919284457768?text=" + encodeURIComponent(message);
+      
+          // Open the WhatsApp chat window
+          window.open(whatsapp_url, '');
+        }
+      </script>
+      
+</html>
